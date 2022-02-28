@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  font-family: 'Gotham', sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+    text-align: center;
+}
