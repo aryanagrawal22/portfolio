@@ -7,8 +7,6 @@ export default function Home() {
       <div className="container mx-auto max-w-screen-xl">
         <NavBar/>
         <Intro/>
-        <Intro/>
-        <Intro/>
       </div>
     </div>
     

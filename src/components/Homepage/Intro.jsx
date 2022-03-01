@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -28,6 +29,24 @@ export default function Hero() {
                   .start();
               }}
             />
+          </div>
+          <h1 className="mt-6 font-secondary font-normal text-gray-400 text-xl text-left">
+            I’m a Software Engineer specilalizing in building exceptional
+            websites, system applications and everything in between.
+          </h1>
+          <h1 className="mt-7 font-secondary font-bold text-gray-400 text-lg text-left">
+            Worked At:
+          </h1>
+          <div className="mt-4">
+            <Link href="https://www.bipolarfactory.com/">
+              <a target="_blank">
+                <img
+                  src="images/worked1.svg"
+                  className="max-h-12 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-110 mt-3"
+                  alt="Logo"
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </Fade>
