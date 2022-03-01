@@ -1,5 +1,5 @@
-import Intro from "../components/Homepage/Intro";
-import NavBar from "../components/Shared/Navbar";
+import Intro from "../../components/Homepage/Intro";
+import NavBar from "../../components/Shared/Navbar";
 
 export default function Home() {
   return (
@@ -11,6 +11,5 @@ export default function Home() {
         <Intro/>
       </div>
     </div>
-    
   );
 }
