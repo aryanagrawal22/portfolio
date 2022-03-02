@@ -1,4 +1,5 @@
 import Intro from "../components/Homepage/Intro";
+import Footer from "../components/Shared/Footer";
 import NavBar from "../components/Shared/Navbar";
 
 export default function Home() {
@@ -7,6 +8,9 @@ export default function Home() {
       <div className="container mx-auto max-w-screen-xl">
         <NavBar/>
         <Intro/>
+        <Intro/>
+        <Intro/>
+        <Footer/>
       </div>
     </div>
     

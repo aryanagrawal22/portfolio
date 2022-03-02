@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-2 ">
+    <div className=" grid grid-cols-1 lg:grid-cols-2 mt-6">
       <Fade className="my-auto">
         <div className="my-auto px-5 flex flex-col justify-start md:justify-center lg:justify-start">
-          <h1 className=" mt-2 font-primary text-white text-2xl text-left tracking-[.30em]">
+          <h1 className=" mt-6 font-primary text-white text-2xl text-left tracking-[.30em]">
             ARYAN AGRAWAL
           </h1>
           <div className="mt-6 font-primary font-medium text-[#00e5ff] text-500 text-5xl text-left">
