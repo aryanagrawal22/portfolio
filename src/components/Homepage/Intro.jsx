@@ -42,7 +42,7 @@ export default function Hero() {
               <a target="_blank">
                 <img
                   src="images/worked1.svg"
-                  className="max-h-12 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-110 mt-3"
+                  className="max-h-12 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-300 ease-in-out transform hover:scale-110 mt-3"
                   alt="Logo"
                 />
               </a>
@@ -53,7 +53,7 @@ export default function Hero() {
       <Fade>
         <div className="px-5 flex flex-col items-center h-[32rem]">
           <img
-            src="images/developer.png"
+            src="images/blackgif.gif"
             className="overflow-hidden rounded-full mt-8 lg:mt-0"
             alt="Aryan Agrawal"
           />

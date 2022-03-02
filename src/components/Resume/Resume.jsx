@@ -5,7 +5,7 @@ export default function Resume() {
   const resumeUrl =
     "https://drive.google.com/file/d/1ss5qQbSJv9wMSHIuENjJ_ZXzjXW5HI_G/preview";
   return (
-    <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800 px-3 ">
+    <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800 px-3">
       <div className="h-full rounded-lg">
         <div className="bg-gray-900 py-6 px-6 flex justify-between items-center rounded-lg ">
           <Fade>
