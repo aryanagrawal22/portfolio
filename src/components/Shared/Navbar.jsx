@@ -23,8 +23,8 @@ export default function NavBar() {
       link: "/about",
     },
     {
-      title: "What I Do",
-      link: "/work",
+      title: "Experiences",
+      link: "/experiences",
     },
     {
       title: "Resume",

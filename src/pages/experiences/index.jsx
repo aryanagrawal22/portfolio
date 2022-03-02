@@ -1,4 +1,4 @@
-import Intro from "../../components/Homepage/Intro";
+import Experiences from "../../components/Experiences/index";
 import Footer from "../../components/Shared/Footer";
 import NavBar from "../../components/Shared/Navbar";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <div className="App bg-black">
       <div className="container mx-auto max-w-screen-xl">
         <NavBar/>
-        <Intro/>
+        <Experiences/>
         <Footer/>
       </div>
     </div>

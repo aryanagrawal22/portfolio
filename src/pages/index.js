@@ -1,5 +1,6 @@
 import Intro from "../components/Homepage/Intro"
 import Projects from "../components/Homepage/Projects";
+import Skills from "../components/Homepage/Skills";
 import Footer from "../components/Shared/Footer";
 import NavBar from "../components/Shared/Navbar";
 
@@ -10,6 +11,7 @@ export default function Home() {
         <NavBar/>
         <Intro/>
         <Projects/>
+        <Skills/>
         <Footer/>
       </div>
     </div>
