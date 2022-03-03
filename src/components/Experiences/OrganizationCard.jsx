@@ -3,8 +3,8 @@ import React from "react";
 export const OrganizationCard = (props) => {
   const { date, position, name, logo } = props.organization;
   return (
-    <div className="w-full xl:w-1/2 my-4">
-      <div className="bg-white rounded-lg px-8 py-6 m-4 h-full">
+    <div className="w-full xl:w-1/2 my-4 ">
+      <div className="bg-white rounded-lg px-8 py-6 m-4 h-full transition duration-500 ease-in-out transform hover:scale-105">
         <div className="flex flex-col sm:flex-row sm:space-x-8 h-full">
           <img
             className="rounded-full h-24 w-24 bg-white my-auto mx-auto sm:mx-0 object-contain"

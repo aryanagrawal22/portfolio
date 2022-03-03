@@ -37,7 +37,7 @@ const experienceData = [
 
 export default function Experience() {
   return (
-    <div className="mb-8 mt-20">
+    <div className="mb-8 mt-20 mx-4">
       <Fade up>
         <div>
           <h1 className="heading-main mb-8">Experience</h1>

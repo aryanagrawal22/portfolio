@@ -8,7 +8,7 @@ export default function Experiences() {
     <div>
       <Fade up>
         <div>
-          <h1 className="text-center mt-10 font-primary font-black text-3xl md:text-5xl capitalize text-[#00e5ff] transition duration-500 ease-in-out transform hover:scale-105">
+          <h1 className="text-center mt-10 font-primary font-black text-3xl md:text-5xl capitalize text-white hover:text-[#00e5ff] transition duration-500 ease-in-out transform hover:scale-105">
             Experiences
           </h1>
         </div>
@@ -18,7 +18,7 @@ export default function Experiences() {
 
       <Fade up>
         <div>
-          <h1 className="text-center mt-16 font-primary font-black text-3xl md:text-5xl capitalize text-[#00e5ff] transition duration-500 ease-in-out transform hover:scale-105">
+          <h1 className="text-center mt-16 font-primary font-black text-3xl md:text-5xl capitalize text-white hover:text-[#00e5ff] transition duration-500 ease-in-out transform hover:scale-105">
           Organizations
           </h1>
         </div>

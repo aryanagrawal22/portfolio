@@ -34,3 +34,9 @@
 									   color-stop(0.72, #00e5ff),
 									   color-stop(0.86, #00e5ff));
 }
+
+
+::selection {
+	background: #00e5ff;
+	color: #000;
+  }
