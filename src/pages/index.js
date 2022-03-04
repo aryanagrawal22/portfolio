@@ -10,8 +10,8 @@ export default function Home(props) {
       <div className="container mx-auto max-w-screen-xl">
         <NavBar/>
         <Intro/>
-        <Projects data={props.data}/>
-        <Skills/>
+        <Projects data={props.data.projects}/>
+        <Skills data={props.data.skills}/>
         <Footer/>
       </div>
     </div>
@@ -19,8 +19,8 @@ export default function Home(props) {
   );
 }
 
-export async function getServerSideProps() {
-  // Fetch data from external API
+export async function getStaticProps() {
+  // Fetch data from API
   const res = await fetch(`${process.env.API}/home`)
   const data = await res.json()
 

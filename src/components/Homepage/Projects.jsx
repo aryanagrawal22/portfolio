@@ -2,7 +2,7 @@ import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
 
 export default function Projects(props) {
-  const projects = props.data.projects;
+  const projects = props.data;
   return (
     <Fade>
       <div className="container my-14 mx-auto px-4 md:px-12">
@@ -15,9 +15,9 @@ export default function Projects(props) {
         <div className="flex flex-wrap -mx-1 lg:-mx-4 ">
 
 
-          {projects.map((project) => {
+          {projects.map((project, index) => {
             return (
-              <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <div key={index} className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                 <article className="overflow-hidden rounded-lg shadow-lg bg-white transition duration-300 ease-in-out transform hover:scale-105 ">
                   <img
                     alt="Placeholder"
