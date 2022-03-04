@@ -3,7 +3,7 @@ import cors from "cors";
 import projectJSON from "../../../data/project.json";
 import skillJSON from "../../../data/skill.json";
 
-const index = nc()
+const homeIndex = nc()
   // use connect based middleware
   .use(cors())
   // express like routing for methods
@@ -11,4 +11,4 @@ const index = nc()
     res.send({status:true, projects: projectJSON, skills: skillJSON});
   });
 
-export default index;
+export default homeIndex;

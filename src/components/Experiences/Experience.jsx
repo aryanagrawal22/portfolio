@@ -8,34 +8,9 @@ import {
 import {Fade} from "react-awesome-reveal";
 import React from "react";
 
-const experienceData = [
-  {
-      "date": "FEBURARY 2022 - PRESENT",
-      "title": "Bipolar Factory",
-      "subtitle": "Backend Developer Intern",
-      "website": "https://www.bipolarfactory.com/",
-      "details": "Created backend of Goa election polling booth app and Worked on worker Live Data sharing UI.",
-      "techStack": [
-          "MERN Stack",
-          "Firebase",
-          "Google Cloud"
-      ]
-  },
-  {
-      "date": "SEPTEMBER 2021 - DECEMBER 2021",
-      "title": "KodeIT",
-      "subtitle": "Full Stack Developer Intern",
-      "website": "https://kodeitsolutions.com/",
-      "details": "Handling backend and frontend development of the websites and applications using MERN Stack.",
-      "techStack": [
-          "React",
-          "NodeJS",
-          "Mongo",
-      ]
-  }
-]
 
-export default function Experience() {
+export default function Experience(props) {
+  const experienceData = props.data;
   return (
     <div className="mb-8 mt-20 mx-4">
       <Fade up>

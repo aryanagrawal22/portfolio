@@ -3,7 +3,7 @@ import {Fade} from "react-awesome-reveal";
 import Organizations from "./Organizations";
 import React from "react";
 
-export default function Experiences() {
+export default function Experiences(props) {
   return (
     <div>
       <Fade up>
@@ -14,7 +14,7 @@ export default function Experiences() {
         </div>
       </Fade>
 
-      <Experience />
+      <Experience  data={props.data.experience}/>
 
       <Fade up>
         <div>
@@ -23,7 +23,7 @@ export default function Experiences() {
           </h1>
         </div>
       </Fade>
-      <Organizations />
+      <Organizations data={props.data.organization}/>
     </div>
   );
 }

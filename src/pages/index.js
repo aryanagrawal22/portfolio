@@ -4,7 +4,7 @@ import Skills from "../components/Homepage/Skills";
 import Footer from "../components/Shared/Footer";
 import NavBar from "../components/Shared/Navbar";
 
-export default function Home(props) {
+export default function HomePage(props) {
   return (
     <div className="App bg-black">
       <div className="container mx-auto max-w-screen-xl">

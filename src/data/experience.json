@@ -1,0 +1,26 @@
+[
+    {
+        "date": "FEBURARY 2022 - PRESENT",
+        "title": "Bipolar Factory",
+        "subtitle": "Backend Developer Intern",
+        "website": "https://www.bipolarfactory.com/",
+        "details": "Created backend of Goa election polling booth app and Worked on worker Live Data sharing UI.",
+        "techStack": [
+            "MERN Stack",
+            "Firebase",
+            "Google Cloud"
+        ]
+    },
+    {
+        "date": "SEPTEMBER 2021 - DECEMBER 2021",
+        "title": "KodeIT",
+        "subtitle": "Full Stack Developer Intern",
+        "website": "https://kodeitsolutions.com/",
+        "details": "Handling backend and frontend development of the websites and applications using MERN Stack.",
+        "techStack": [
+            "React",
+            "NodeJS",
+            "Mongo"
+        ]
+    }
+  ]
