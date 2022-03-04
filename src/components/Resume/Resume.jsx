@@ -12,7 +12,7 @@ export default function Resume() {
         <div className="bg-gray-900 py-6 px-6 flex justify-between items-center rounded-lg ">
           <Fade>
             <h1 className="text-gray-300 text-md md:text-lg sm:text-sm font-semibold font-secondary">
-              Resume | Aryan Agrawal
+              Aryan Agrawal - Resume
             </h1>
           </Fade>
           <a
