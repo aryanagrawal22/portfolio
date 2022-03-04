@@ -46,7 +46,7 @@ export default function HomePage(props) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   // Fetch data from API
   const res = await fetch(`${process.env.API}/home`);
   const data = await res.json();

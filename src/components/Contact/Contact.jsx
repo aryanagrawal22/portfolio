@@ -127,16 +127,16 @@ export default function Contact() {
     <Fade className="w-full flex items-center justify-center my-12">
     <div
       onSubmit={handleSubmit}
-      class="w-full flex items-center justify-center my-12"
+      className="w-full flex items-center justify-center my-12"
     >
       
-      <form class=" top-40 bg-white shadow rounded py-12 lg:px-28 px-8">
-        <p class="md:text-3xl text-xl font-semibold leading-7 text-center text-black">
+      <form className=" top-40 bg-white shadow rounded py-12 lg:px-28 px-8">
+        <p className="md:text-3xl text-xl font-semibold leading-7 text-center text-black">
           Let’s connect!
         </p>
-        <div class="md:flex items-center mt-12">
-          <div class="md:w-72 flex flex-col">
-            <label class="text-base font-semibold leading-none text-black">
+        <div className="md:flex items-center mt-12">
+          <div className="md:w-72 flex flex-col">
+            <label className="text-base font-semibold leading-none text-black">
               Name
             </label>
             <input
@@ -146,7 +146,7 @@ export default function Contact() {
               placeholder="Dennis Ritchie"
               onChange={handleChange}
               arial-label="Dennis Ritchie"
-              class={
+              className={
                 error.nameError === ""
                   ? "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400"
                   : "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 border-2 border-red-500"
@@ -158,12 +158,12 @@ export default function Contact() {
               </p>
             )}
           </div>
-          <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
-            <label class="text-base font-semibold leading-none text-black">
+          <div className="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
+            <label className="text-base font-semibold leading-none text-black">
               Email Address
             </label>
             <input
-              class={
+              className={
                 error.emailError === ""
                   ? "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400"
                   : "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 border-2 border-red-500"
@@ -182,13 +182,13 @@ export default function Contact() {
             )}
           </div>
         </div>
-        <div class="md:flex items-center mt-8">
-          <div class="md:w-72 flex flex-col">
-            <label class="text-base font-semibold leading-none text-black">
+        <div className="md:flex items-center mt-8">
+          <div className="md:w-72 flex flex-col">
+            <label className="text-base font-semibold leading-none text-black">
               Phone
             </label>
             <input
-              class={
+              className={
                 error.phoneError === ""
                   ? "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400"
                   : "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 border-2 border-red-500"
@@ -207,12 +207,12 @@ export default function Contact() {
                     </p>
                   )}
           </div>
-          <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
-            <label class="text-base font-semibold leading-none text-black">
+          <div className="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
+            <label className="text-base font-semibold leading-none text-black">
               Country
             </label>
             <input
-              class={
+              className={
                 error.countryError === ""
                   ? "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400"
                   : "text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 border-2 border-red-500"
@@ -222,7 +222,6 @@ export default function Contact() {
               type="text"
               placeholder="USA"
               onChange={handleChange}
-              arial-label="9876543210"
               arial-label="USA"
               
             />
@@ -234,12 +233,12 @@ export default function Contact() {
           </div>
         </div>
         <div>
-          <div class="w-full flex flex-col mt-8">
-            <label class="text-base font-semibold leading-none text-black">
+          <div className="w-full flex flex-col mt-8">
+            <label className="text-base font-semibold leading-none text-black">
               Message
             </label>
             <textarea
-              class={
+              className={
                 error.messageError === ""
                   ? "h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 resize-none"
                   : "h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 resize-none border-2 border-red-500"
@@ -258,8 +257,8 @@ export default function Contact() {
                   )}
           </div>
         </div>
-        <div class="flex items-center justify-center w-full">
-          <button class="mt-9 text-base font-semibold leading-none text-black py-4 px-10 bg-[#00e5ff] rounded hover:bg-[#66F0FF] duration-300 focus:ring-2 focus:ring-offset-2 focus:ring-black focus:outline-none">
+        <div className="flex items-center justify-center w-full">
+          <button className="mt-9 text-base font-semibold leading-none text-black py-4 px-10 bg-[#00e5ff] rounded hover:bg-[#66F0FF] duration-300 focus:ring-2 focus:ring-offset-2 focus:ring-black focus:outline-none">
             SUBMIT
           </button>
         </div>

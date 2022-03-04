@@ -14,9 +14,9 @@ export default function About() {
       <Fade up cascade>
         <div>
           <p className="mx-auto w-full lg:w-3/4 mt-4 font-secondary font-normal text-gray-400 text-xl text-center">
-            I’m Aryan, currently I live in Mumbai and pursuing my Undergraduate
+            I&apos;m Aryan, currently I live in Mumbai and pursuing my Undergraduate
             Degree from Pune Institute of Computer Technology, Pune in
-            Information Technology. I'm currently working in the fields of Web
+            Information Technology. I&apos;m currently working in the fields of Web
             Development and Cloud.
           </p>
           <p className="mx-auto w-full lg:w-3/4 mt-2 font-secondary font-normal text-gray-400 text-xl text-center">
@@ -37,7 +37,7 @@ export default function About() {
                 height="24"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
-                class="icon button__icon button__icon--start fill-[#00e5ff] mx-3 mt-12 mt-2 font-secondary font-normal text-[#00e5ff] text-xl text-center"
+                className="icon button__icon button__icon--start fill-[#00e5ff] mx-3 mt-12 mt-2 font-secondary font-normal text-[#00e5ff] text-xl text-center"
               >
                 <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"></path>
               </svg>
