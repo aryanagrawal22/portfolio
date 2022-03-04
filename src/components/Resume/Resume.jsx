@@ -1,7 +1,9 @@
+import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import React from "react";
 
 export default function Resume() {
+
   const resumeUrl =
     "https://drive.google.com/file/d/1ss5qQbSJv9wMSHIuENjJ_ZXzjXW5HI_G/preview";
   return (
