@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 export default function Contact() {
   const emailRegex = RegExp(
@@ -24,15 +26,14 @@ export default function Contact() {
   });
 
   const sendMessage = async () => {
-    // await axios
-    //   .post("https://rohin-portfolio-api.herokuapp.com/messages", userData)
-    //   .then((res) => {
-    //     toast.success("Message sent successfully");
-    //   })
-    //   .catch((err) => {
-    //     toast.error("Something went wrong");
-    //   });
-    console.log(userData);
+    await axios
+      .post(`${process.env.NEXT_PUBLIC_API}/contact`, userData)
+      .then((res) => {
+        toast.success("Message sent successfully");
+      })
+      .catch((err) => {
+        toast.error("Something went wrong");
+      });
   };
 
   const validate = () => {
@@ -115,11 +116,7 @@ export default function Contact() {
     e.preventDefault();
     const isValid = validate();
     if (isValid) {
-      sendMessage({
-        url: "https://rohin-portfolio-api.herokuapp.com/messages",
-        method: "POST",
-        data: userData,
-      });
+      sendMessage();
     }
   };
 
