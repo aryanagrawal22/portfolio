@@ -23,7 +23,7 @@ export default function Experience(props) {
           return (
             <VerticalTimelineElement
               key={index}
-              className="vertical-timeline-element--education"
+              className="vertical-timeline-element--education text-left"
               contentStyle={{ background: "white", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  #1F2937" }}
               date={experience.date}

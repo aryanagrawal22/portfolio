@@ -12,7 +12,7 @@ export default function Projects(props) {
         <h1 className=" mb-8 font-primary font-bold text-3xl text-center text-[#00e5ff]">
           Projects
         </h1>
-        <div className="flex flex-wrap -mx-1 lg:-mx-4 ">
+        <div className="flex flex-wrap -mx-1 lg:mx-4  ">
 
 
           {projects.map((project, index) => {

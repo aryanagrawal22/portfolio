@@ -12,7 +12,7 @@ export default function Skills(props) {
       <Fade up>
         <h1 className="heading-tagline mt-8 mb-4 font-primary text-white text-xl text-center">TAKE A LOOK AT MY SKILLS IN</h1>
         <div>
-          <h1 className="heading-main mt-4 mb-8 font-primary font-bold text-white text-3xl text-center text-[#00e5ff]">Web Development</h1>
+          <h1 className="heading-main mt-4 mb-8 font-primary font-bold text-3xl text-center text-[#00e5ff]">Web Development</h1>
         </div>
       </Fade>
       <Fade up>
@@ -28,7 +28,7 @@ export default function Skills(props) {
 
       <Fade up>
         <div>
-          <h1 className="heading-main mt-16 mb-8 font-primary font-bold text-white text-3xl text-center text-[#00e5ff]">Cloud & DevOps</h1>
+          <h1 className="heading-main mt-16 mb-8 font-primary font-bold text-3xl text-center text-[#00e5ff]">Cloud & DevOps</h1>
         </div>
       </Fade>
       <Fade up>
@@ -44,7 +44,7 @@ export default function Skills(props) {
 
       <Fade up>
         <div>
-          <h1 className="heading-main mt-16 mb-8 font-primary font-bold text-white text-3xl text-center text-[#00e5ff]">Machine Learning</h1>
+          <h1 className="heading-main mt-16 mb-8 font-primary font-bold text-3xl text-center text-[#00e5ff]">Machine Learning</h1>
         </div>
       </Fade>
       <Fade up>

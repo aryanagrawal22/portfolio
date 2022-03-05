@@ -51,7 +51,7 @@ export default function Hero() {
         </div>
       </Fade>
       <Fade>
-        <div className="px-5 flex flex-col items-center h-[32rem]">
+        <div className="px-5 flex flex-col items-center lg:h-[32rem]">
           <img
             src="images/blackgif.gif"
             className="overflow-hidden rounded-full mt-8 lg:mt-0"
