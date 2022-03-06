@@ -5,7 +5,7 @@ import React from "react";
 export default function Resume() {
 
   const resumeUrl =
-    "https://drive.google.com/file/d/1ss5qQbSJv9wMSHIuENjJ_ZXzjXW5HI_G/preview";
+    "https://drive.google.com/file/d/1YhdfnArzrKhKMObw0i_zvVjns5BRquAs/preview";
   return (
     <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800 px-3">
       <div className="h-full rounded-lg">
@@ -15,8 +15,8 @@ export default function Resume() {
               Aryan Agrawal - Resume
             </h1>
           </Fade>
-          <a
-            href="https://drive.google.com/u/1/uc?id=1ss5qQbSJv9wMSHIuENjJ_ZXzjXW5HI_G&export=download"
+          <a 
+            href="https://drive.google.com/u/1/uc?id=1YhdfnArzrKhKMObw0i_zvVjns5BRquAs&export=download"
             download
           >
             <Fade>
