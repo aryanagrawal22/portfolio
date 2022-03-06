@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import axios from "axios";
-import { toast } from "react-toastify";
 
 export default function Contact() {
+
+  const [submit, isSubmit] = useState(false);
+
   const emailRegex = RegExp(
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
   );
@@ -29,10 +31,12 @@ export default function Contact() {
     await axios
       .post(`${process.env.NEXT_PUBLIC_API}/contact`, userData)
       .then((res) => {
-        toast.success("Message sent successfully");
+        isSubmit(true);
+        console.log("Message Sent Successfully");
       })
       .catch((err) => {
-        toast.error("Something went wrong");
+        isSubmit(false);
+        console.log("Something Went Wrong");
       });
   };
 
@@ -115,7 +119,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const isValid = validate();
-    if (isValid) {
+    if (isValid && !submit) {
       sendMessage();
     }
   };
@@ -259,6 +263,11 @@ export default function Contact() {
             SUBMIT
           </button>
         </div>
+        {submit? (
+              <p className="text-green-500 text-md font-bold mt-2">
+                * Submitted
+              </p>
+            ): null}
       </form>
       
     </div>

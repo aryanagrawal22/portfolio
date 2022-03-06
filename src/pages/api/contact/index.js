@@ -28,8 +28,10 @@ const contactIndex = nc()
     transporter.sendMail(mailOptions,function(error,info){
         if(error){
             console.log(error);
+            return res.status(404).send({Data: error})
         }else{
             console.log('Email Send ' + info.response);
+            return res.status(200).send({Data: info.response})
         }
    });
 
