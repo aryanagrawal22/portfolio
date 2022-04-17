@@ -4,9 +4,10 @@
         "title": "Bipolar Factory",
         "subtitle": "Backend Engineer Intern",
         "website": "https://www.bipolarfactory.com/",
-        "details": "Created backend of Goa election polling booth app and Worked on worker Live Data sharing UI.",
+        "details": "Created backend of UP election polling booth app and Worked on Live hardware Status Sharing backend using MQTT protocol.",
         "techStack": [
             "MERN Stack",
+            "MQTT",
             "Firebase",
             "Google Cloud"
         ]
