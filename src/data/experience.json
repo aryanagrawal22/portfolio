@@ -1,15 +1,15 @@
 [
     {
-        "date": "FEBURARY 2022 - PRESENT",
+        "date": "FEBURARY 2022 - MAY 2022",
         "title": "Bipolar Factory",
-        "subtitle": "Backend Engineer Intern",
+        "subtitle": "Full Stack Developer Intern",
         "website": "https://www.bipolarfactory.com/",
-        "details": "Created backend of UP election polling booth app and Worked on Live hardware Status Sharing backend using MQTT protocol.",
+        "details": ["• Worked with MQTT standard messaging protocol for IoT and Developed live hardware status sharing web application and mobile application backend.", "• Designed and created the backend of Uttar Pradesh election polling booth mobile application."],
         "techStack": [
             "MERN Stack",
             "MQTT",
-            "Firebase",
-            "Google Cloud"
+            "GCP",
+            "WebSockets"
         ]
     },
     {
@@ -17,11 +17,12 @@
         "title": "KodeIT",
         "subtitle": "Full Stack Developer Intern",
         "website": "https://kodeitsolutions.com/",
-        "details": "Handling backend and frontend development of the websites and applications using MERN Stack.",
+        "details": ["• Handling backend and frontend development of the websites and applications using MERN Stack."],
         "techStack": [
             "React",
             "NodeJS",
-            "Mongo"
+            "MongoDB",
+            "System Design"
         ]
     }
   ]

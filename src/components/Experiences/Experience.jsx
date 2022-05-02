@@ -5,9 +5,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-import {Fade} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import React from "react";
-
 
 export default function Experience(props) {
   const experienceData = props.data;
@@ -56,7 +55,14 @@ export default function Experience(props) {
                 {experience.subtitle}
               </h4>
               <h6 className="font-secondary text-md font-medium text-gray-500">
-                {experience.details}
+                {experience.details.map((detail, index) => {
+                  return (
+                    <span key={index}>
+                      {detail}
+                      <br /><br/>
+                    </span>
+                  );
+                })}
               </h6>
               <div className="mb-2">
                 <div className="align-middle items-start mt-2 space-y-2">
