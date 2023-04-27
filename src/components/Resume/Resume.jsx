@@ -3,9 +3,9 @@ import { Fade } from "react-awesome-reveal";
 import React from "react";
 
 export default function Resume() {
-  
+
   const resumeUrl =
-    "https://drive.google.com/file/d/18LHbs_AxsjigRjZs3b6cIkwqk-_rei9q/preview";
+    "https://drive.google.com/file/d/18YeiHstWJbkUVwy3gO8ZtH6jARcexAp7/preview";
   return (
     <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800 px-3">
       <div className="h-full rounded-lg">
@@ -15,8 +15,9 @@ export default function Resume() {
               Aryan Agrawal - Resume
             </h1>
           </Fade>
-          <a 
-            href="https://drive.google.com/u/1/uc?id=18LHbs_AxsjigRjZs3b6cIkwqk-_rei9q&export=download"
+
+          <a
+            href="https://drive.google.com/u/1/uc?id=18YeiHstWJbkUVwy3gO8ZtH6jARcexAp7&export=download"
             download
           >
             <Fade>

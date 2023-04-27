@@ -20,10 +20,7 @@ export default function Hero() {
                   .typeString("Full Stack Developer")
                   .pauseFor(500)
                   .deleteAll()
-                  .typeString("Devops + Cloud")
-                  .pauseFor(500)
-                  .deleteAll()
-                  .typeString("Machine Learning")
+                  .typeString("Cloud + Devops")
                   .pauseFor(500)
                   .deleteAll()
                   .start();
@@ -37,7 +34,16 @@ export default function Hero() {
           <h1 className="mt-7 font-secondary font-bold text-gray-400 text-lg text-left">
             Worked At:
           </h1>
-          <div className="mt-4">
+          <div className="mt-4 inline-grid grid-cols-2">
+          <Link href="https://www.getfleek.app/">
+              <a target="_blank">
+                <img
+                  src="images/fleek.png"
+                  className="max-h-10 sm:max-h-14 md:max-h-18 xl:max-h-14 transition duration-300 ease-in-out transform hover:scale-110 mt-3"
+                  alt="Logo"
+                />
+              </a>
+            </Link>
             <Link href="https://www.bipolarfactory.com/">
               <a target="_blank">
                 <img

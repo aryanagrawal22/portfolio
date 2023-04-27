@@ -1,10 +1,10 @@
 [
     {
-        "name": "Web Messenger",
-        "description": "A Messaging App having features like Dark Mode,Auto Scrollable Feed, Delete messages, Auth, and login/log out.",
-        "github": "https://github.com/aryanagrawal22/Web-Messenger",
-        "website": "https://whatsapp-build-e3a1e.firebaseapp.com/",
-        "image": "connect.jpg"
+        "name": "AICTE Verification Portal",
+        "description": "One-point student & faculty verification portal for colleges to reduces manual processing time having facial recognition for security.",
+        "github": "https://github.com/Antons-SIH",
+        "website": "https://github.com/Antons-SIH",
+        "image": "student.jpg"
     },
     {
         "name": "Online Judge",
@@ -14,10 +14,10 @@
         "image": "server.jpg"
     },
     {
-        "name": "Disease Predictor",
-        "description": "Responsive website to predict disease from given health parameters using machine learning models.",
-        "github": "https://github.com/aryanagrawal22/Disease-Predictor",
-        "website": "https://disease-predict-website.herokuapp.com/",
-        "image": "health.jpg"
+        "name": "File Backup System",
+        "description": "Backup system to organize unstructured data from several sources which is chunked and stored in a catalogue of backed-up chunks.",
+        "github": "",
+        "website": "",
+        "image": "data.jpg"
     }
   ]

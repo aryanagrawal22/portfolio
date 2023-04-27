@@ -1,5 +1,28 @@
 [
     {
+        "date": "JANUARY 2023 - PRESENT",
+        "title": "Fleek",
+        "subtitle": "Backend Developer Intern",
+        "website": "https://www.getfleek.app/",
+        "details": ["• Currently working on the development of an internal admin portal using the Retool platform, migrating data from the existing Django admin table. Streamlining internal processes and seeking to improve overall efficiency during my internship."],
+        "techStack": [
+            "Django",
+            "PostgreSQL",
+            "Retool"
+        ]
+    },
+    {
+        "date": "JUNE 2022 - AUGUST 2022",
+        "title": "Pune Institute of Computer Technology",
+        "subtitle": "Research Intern",
+        "website": "",
+        "details": ["• Created a reliable backup system for files to organize unstructured data from several sources.", "• A Version control is maintained while retaining performance and scalability by allowing many users to start the backup and access any prior versions of a file."],
+        "techStack": [
+            "Python",
+            "PostgreSQL"
+        ]
+    },
+    {
         "date": "FEBURARY 2022 - MAY 2022",
         "title": "Bipolar Factory",
         "subtitle": "Full Stack Developer Intern",
@@ -16,7 +39,7 @@
         "date": "SEPTEMBER 2021 - DECEMBER 2021",
         "title": "KodeIT",
         "subtitle": "Full Stack Developer Intern",
-        "website": "https://kodeitsolutions.com/",
+        "website": "",
         "details": ["• Handling backend and frontend development of the websites and applications using MERN Stack."],
         "techStack": [
             "React",
