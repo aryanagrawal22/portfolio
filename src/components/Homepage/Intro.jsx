@@ -38,8 +38,8 @@ export default function Hero() {
           <Link href="https://www.getfleek.app/">
               <a target="_blank">
                 <img
-                  src="images/fleek.png"
-                  className="max-h-10 sm:max-h-14 md:max-h-18 xl:max-h-14 transition duration-300 ease-in-out transform hover:scale-110 mt-3"
+                  src="images/Barclays.png"
+                  className="max-h-18 sm:max-h-18 md:max-h-20 xl:max-h-18 transition duration-300 ease-in-out transform hover:scale-110 mt-1"
                   alt="Logo"
                 />
               </a>
@@ -47,8 +47,8 @@ export default function Hero() {
             <Link href="https://www.bipolarfactory.com/">
               <a target="_blank">
                 <img
-                  src="images/worked1.svg"
-                  className="max-h-12 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-300 ease-in-out transform hover:scale-110 mt-3"
+                  src="images/MPL.png"
+                  className="max-h-18 sm:max-h-18 md:max-h-20 xl:max-h-18 transition duration-300 ease-in-out transform hover:scale-110 mt-1"
                   alt="Logo"
                 />
               </a>

@@ -1,10 +1,45 @@
-[
+[   
     {
-        "date": "JANUARY 2023 - PRESENT",
+        "date": "AUGUST 2023 - PRESENT",
+        "title": "MPL",
+        "subtitle": "SDE Intern",
+        "website": "https://www.mpl.live/",
+        "details": ["• Founding member of the engineering team, played a pivotal role in creating a cutting-edge product from 0 to 1, leading microservice architectural development, fine-tuning language models, and end-to-end backend implementation.",
+                    "• Used Node.js and Java to develop a microservices architecture, while using Kafka to transport messages between services asynchronously",
+                    "• Implemented WebSocket and gRPC for rapid client and service communication, enhancing overall system efficiency."],
+        "techStack": [
+            "Java",
+            "Nodejs",
+            "ChatGPT Fine Tune Models",
+            "gRPC",
+            "Kafka",
+            "MQTT"
+        ]
+    },
+    {
+        "date": "JUNE 2023 - AUGUST 2023",
+        "title": "Barclays",
+        "subtitle": "Summer Intern",
+        "website": "https://home.barclays/",
+        "details": ["• Initiated requirements definition and led Figma UI/UX design for a user-friendly ”Application 360 View” interface.",
+                    "• Implemented the frontend using React and React-Redux for efficient state management and user-specific data delivery",
+                    "• Developed Node.js backend, simulating real data for two internal services, leveraging MongoDB for data management."],
+        "techStack": [
+            "Figma",
+            "React",
+            "React-Redux",
+            "Node.js",
+            "SonarQube"
+        ]
+    },
+    {
+        "date": "JANUARY 2023 - MAY 2023",
         "title": "Fleek",
         "subtitle": "Backend Developer Intern",
         "website": "https://www.getfleek.app/",
-        "details": ["• Currently working on the development of an internal admin portal using the Retool platform, migrating data from the existing Django admin table. Streamlining internal processes and seeking to improve overall efficiency during my internship."],
+        "details": ["• Implemented a new transaction history feature for the wallet and digital currency, Fleek Coins, showcasing refunds, purchases, cashbacks, and referrals. The feature significantly improved transparency and usability for customers",
+        "• Developed and integrated 20 unit tested APIs with new subscription model for streamlined data management.",
+        "• Automated data migration with celery task queue, ensuring timely, accurate updates to the newly migrated table."],
         "techStack": [
             "Django",
             "PostgreSQL",
