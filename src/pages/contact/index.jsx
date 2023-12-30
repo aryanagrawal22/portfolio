@@ -30,7 +30,8 @@ export default function ContactPage() {
           <Loader />
         </div>
       ) : (
-        <div className="App bg-black">
+        <div className="App bg-black min-h-screen ;
+        justify-content: flex-start;">
           <div className="container mx-auto max-w-screen-xl">
             <NavBar />
             <Contact />
