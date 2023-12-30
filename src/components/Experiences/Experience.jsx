@@ -11,7 +11,7 @@ import React from "react";
 export default function Experience(props) {
   const experienceData = props.data;
   return (
-    <div className="mb-8 mt-20 mx-4">
+    <div className="mb-8 mt-20 mx-4 overflow-hidden">
       <Fade up>
         <div>
           <h1 className="heading-main mb-8">Experience</h1>
@@ -41,10 +41,13 @@ export default function Experience(props) {
                 </svg>
               }
             >
-              <div className="flex flex-row justify-between gap-8">
-                <h3 className="mb-2 font-primary text-xl font-bold text-black">
-                  {experience.title}
-                </h3>
+              <div className="flex flex-row justify-between items-center gap-8 mb-4">
+                <div className="flex items-center gap-2">
+                  <img src={experience.imageURL} alt="Experience" className="h-12 w-12 p-2 rounded-full border border-1 border-black" />
+                  <h3 className="mb-1 ml-2 font-primary text-xl font-bold text-black">
+                    {experience.title}
+                  </h3>
+                </div>
                 {experience.website ? (
                   <a href={experience.website} target="_blank" rel="noreferrer">
                     <i className="fas fa-external-link-alt fa-md my-auto text-black"></i>

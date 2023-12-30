@@ -17,7 +17,7 @@ export default function Footer() {
             </svg>
           </a>
         </Link>
-        <Link href="https://www.linkedin.com/in/-aryanagrawal/">
+        <Link href="https://www.linkedin.com/in/aryanag/">
           <a
             target="_blank"
             rel="noreferrer"

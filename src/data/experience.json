@@ -1,7 +1,7 @@
 [   
     {
         "date": "AUGUST 2023 - PRESENT",
-        "title": "MPL",
+        "title": "Mobile Premier League",
         "subtitle": "SDE Intern",
         "website": "https://www.mpl.live/",
         "details": ["• Founding member of the engineering team, played a pivotal role in creating a cutting-edge product from 0 to 1, leading microservice architectural development, fine-tuning language models, and end-to-end backend implementation.",
@@ -14,7 +14,8 @@
             "gRPC",
             "Kafka",
             "MQTT"
-        ]
+        ],
+        "imageURL": "images/mpl_logo.png"
     },
     {
         "date": "JUNE 2023 - AUGUST 2023",
@@ -30,7 +31,8 @@
             "React-Redux",
             "Node.js",
             "SonarQube"
-        ]
+        ],
+        "imageURL": "images/barclays_logo.png"
     },
     {
         "date": "JANUARY 2023 - MAY 2023",
@@ -44,7 +46,8 @@
             "Django",
             "PostgreSQL",
             "Retool"
-        ]
+        ],
+        "imageURL": "images/fleek_logo.png"
     },
     {
         "date": "JUNE 2022 - AUGUST 2022",
@@ -55,7 +58,8 @@
         "techStack": [
             "Python",
             "PostgreSQL"
-        ]
+        ],
+        "imageURL": "images/pict_logo.png"
     },
     {
         "date": "FEBURARY 2022 - MAY 2022",
@@ -68,19 +72,7 @@
             "MQTT",
             "GCP",
             "WebSockets"
-        ]
-    },
-    {
-        "date": "SEPTEMBER 2021 - DECEMBER 2021",
-        "title": "KodeIT",
-        "subtitle": "Full Stack Developer Intern",
-        "website": "",
-        "details": ["• Handling backend and frontend development of the websites and applications using MERN Stack."],
-        "techStack": [
-            "React",
-            "NodeJS",
-            "MongoDB",
-            "System Design"
-        ]
+        ],
+        "imageURL": "images/bipolar_logo.png"
     }
   ]

@@ -35,7 +35,7 @@ export default function Hero() {
             Worked At:
           </h1>
           <div className="mt-4 inline-grid grid-cols-2">
-          <Link href="https://www.getfleek.app/">
+          <Link href="https://home.barclays/">
               <a target="_blank">
                 <img
                   src="images/Barclays.png"
@@ -44,7 +44,7 @@ export default function Hero() {
                 />
               </a>
             </Link>
-            <Link href="https://www.bipolarfactory.com/">
+            <Link href="https://www.mpl.live/">
               <a target="_blank">
                 <img
                   src="images/MPL.png"
