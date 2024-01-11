@@ -38,7 +38,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <div class="flex items-center justify-center h-8">
+            <div className="flex items-center justify-center h-8">
               <svg
                 className="circled-icon fill-gray-400 transition duration-500 ease-in-out transform hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
