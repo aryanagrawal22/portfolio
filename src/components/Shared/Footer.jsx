@@ -33,6 +33,25 @@ export default function Footer() {
             </svg>
           </a>
         </Link>
+        <Link href="https://twitter.com/aryanag_tw">
+          <a
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="flex items-center justify-center h-8">
+              <svg
+                class="circled-icon fill-gray-400 transition duration-500 ease-in-out transform hover:scale-110"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 300 300"
+                width="20px"
+                height="20px"
+              >
+                <path d="M 178.57 127.15 L 290.27 0 h -26.46 l -97.03 110.38 L 89.34 0 H 0 l 117.13 166.93 L 0 300.25 h 26.46 l 102.4 -116.59 l 81.8 116.59 h 89.34 M 36.01 19.54 H 76.66 l 187.13 262.13 h -40.66" />
+              </svg>
+            </div>
+
+          </a>
+        </Link>
 
         <Link href="mailto:aryanagrawal20023@gmail.com">
           <a
