@@ -15,7 +15,7 @@ export default function Contact() {
       </Fade>
       <Fade up cascade>
         <div>
-          <Link href="mailto:aryanagrawal20023@gmail.com">
+          <Link href="mailto:contact@aryanagrawal.in">
             <a className="inline-flex flex-wrap">
               <span className="mx-auto mt-12 mt-2 font-secondary font-normal text-[#00e5ff] text-xl text-center">
                 contact@aryanagrawal.in
