@@ -18,7 +18,7 @@ export default function Contact() {
           <Link href="mailto:aryanagrawal20023@gmail.com">
             <a className="inline-flex flex-wrap">
               <span className="mx-auto mt-12 mt-2 font-secondary font-normal text-[#00e5ff] text-xl text-center">
-                aryanagrawal20023@gmail.com
+                contact@aryanagrawal.in
               </span>
             </a>
           </Link>
